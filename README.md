@@ -5,10 +5,10 @@ It was possible to understand more about higher order functions, such as map, re
 
 Main concepts covered:
 
-# arrays;
-# objects;
-# forEach();
-# DOMContentLoaded;
-# map, reduce and filter;
-# innerHTML;
-# includes method;
+- arrays;
+- objects;
+- forEach();
+- DOMContentLoaded;
+- map, reduce and filter;
+- innerHTML;
+- includes method;
