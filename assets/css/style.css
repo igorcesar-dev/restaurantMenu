@@ -34,20 +34,31 @@ body {
     justify-content: center;
 }
 
-.box-menu li {
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
     width: 80px;
     height: 30px;
     margin: 10px;
     border: solid 1px;
     border-radius: 10px;
+    text-transform: capitalize;
     text-align: center;
-    padding-top: 5px;
+    cursor: pointer;
 }
 
-/*  */
+button:hover {
+    background-color: #fafa80;
+    transition: ease-in-out 0.2s;
+}
+
+/* Menu de itens */
 
 
-#pratos {
+.section-center {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 800px);
