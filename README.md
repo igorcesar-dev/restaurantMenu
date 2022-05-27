@@ -1,9 +1,17 @@
-# restaurantMenu
-This project is a restaurant menu page, which filters the different food menus. 
+# Menu de restaurante
 
-It was possible to understand more about higher order functions, such as map, reduce and filter.
+## Sobre o projeto:
 
-Main concepts covered:
+Este projeto é uma página de menu de restaurante, que filtra os diferentes menus de comida disponíveis. 
+Foi possível atribuir aprendizados sobre funções de ordem superior, como map, reduce e filter.
+
+## Funcionamento do projeto:
+
+<p align="center">
+  <img width="720px" src="">
+</p>
+
+## Conceitos tratados:
 
 - arrays;
 - objects;
@@ -12,3 +20,4 @@ Main concepts covered:
 - map, reduce and filter;
 - innerHTML;
 - includes method;
+
