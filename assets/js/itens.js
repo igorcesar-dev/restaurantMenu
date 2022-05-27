@@ -1,34 +1,34 @@
 let menu = [{
   id: 1,
-  nome: "Buttermilk Pancakes",
+  nome: "Panquecas",
   valor: 15.99,
   descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   imagem: "https://lilluna.com/wp-content/uploads/2017/12/buttermilk-pancakes-resize-10-500x500.jpg",
-  categoria: "breakfast",
+  categoria: "Café",
 },
 {
   id: 2,
-  nome: "Diner Double",
+  nome: "Lanche x-tudo + Batatas fritas",
   valor: 13.99,
   descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
   imagem: "https://www.dennys.ca/wp-content/uploads/2019/10/images-1.jpg",
-  categoria: "lunch",
+  categoria: "jantar",
 },
 {
   id: 3,
-  nome: "Godzilla Milkshake",
+  nome: "Milkshake negresco",
   valor: 6.99,
   descricao: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
   imagem: "https://i2-prod.glasgowlive.co.uk/incoming/article16335490.ece/ALTERNATES/s1200b/0_DSC_5334-copy-1.jpg",
-  categoria: "lunch",
+  categoria: "jantar",
 },
 {
   id: 4,
-  nome: "Country Delight",
+  nome: "Café da manhã completo",
   valor: 20.99,
   descricao: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
   imagem: "https://www.falandodeviagem.com.br/imagens21/ComidasTurquia.jpg",
-  categoria: "breakfast",
+  categoria: "Café",
 }];
 
 const menuCentral = document.querySelector(".section-center");
@@ -67,7 +67,7 @@ function mostrarBotoes() {
       }
       return values;
     },
-    ["all"]
+    ["todos"]
   );
   const categoriaBtns = categorias
     .map(function (categoria) {
@@ -91,7 +91,7 @@ function mostrarBotoes() {
           return menuItem;
         }
       });
-      if (categoria === "all") {
+      if (categoria === "todos") {
         mostrarItensMenu(menu);
       } else {
         mostrarItensMenu(menucategoria);
