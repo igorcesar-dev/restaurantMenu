@@ -8,7 +8,7 @@ Foi possível atribuir aprendizados sobre funções de ordem superior, como map,
 ## Funcionamento do projeto:
 
 <p align="left">
-  <img width="800px" src="assets/img/projetorestaurante.gif">
+  <img width="1280px" src="assets/img/projetorestaurante.gif">
 </p>
 
 ## Conceitos tratados:
